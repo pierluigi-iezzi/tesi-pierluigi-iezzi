@@ -31,7 +31,7 @@ export default function Numeri() {
       <div className="row text-center g-4">
         {lista.map((el) => {
           return (
-            <Parallax key={el.title} className="col-md-2 col-sm-3 col-4">
+            <Parallax key={el.title} className="col">
               <div
                 className="rounded-circle light-bg p-4 center flex-column"
                 style={{ width: 150, height: 150 }}
