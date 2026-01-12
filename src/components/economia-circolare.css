@@ -1,0 +1,72 @@
+@property --size {
+  syntax: '*';
+  inherits: false;
+  initial-value: 100px;
+}
+
+#testo-economia-circolare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenitore-economia-circolare {
+  list-style-type: none;
+  position: relative;
+  padding-bottom: calc(var(--size) * 3);
+
+  /* Per centrarlo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contenitore-economia-circolare li {
+  width: var(--size);
+  height: var(--size);
+  border-radius: 100%;
+  border: 1px solid var(--light);
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  transition: all 100ms ease-in-out;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  opacity: 0.7;
+}
+#contenitore-economia-circolare li:hover,
+.sfera-zoommata {
+  z-index: 1 !important;
+  opacity: 1 !important;
+  width: calc(var(--size) * 1.2) !important;
+  height: calc(var(--size) * 1.2) !important;
+  font-size: calc(10pt * 1.2) !important;
+  transition: all 100ms ease-in-out !important;
+}
+#sfera-2 {
+  transform: translate(calc(var(--size) * 0.7), calc(var(--size) * 0.35));
+}
+#sfera-3 {
+  transform: translate(calc(var(--size) * 1.05), calc(var(--size) * 0.35 * 3));
+}
+#sfera-4 {
+  transform: translate(calc(var(--size) * 0.7), calc(var(--size) * 0.35 * 5));
+}
+#sfera-5 {
+  transform: translate(0, calc(var(--size) * 0.35 * 6));
+}
+#sfera-6 {
+  transform: translate(calc(var(--size) * -0.7), calc(var(--size) * 0.35 * 5));
+}
+#sfera-7 {
+  transform: translate(calc(var(--size) * -1.05), calc(var(--size) * 0.35 * 3));
+}
+#sfera-8 {
+  transform: translate(calc(var(--size) * -0.7), calc(var(--size) * 0.35));
+}

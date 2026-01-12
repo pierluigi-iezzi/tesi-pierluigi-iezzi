@@ -1,0 +1,211 @@
+[
+  {
+    "anno": "2002",
+    "certificazioni": [
+      {
+        "azienda": "Caviro Extra",
+        "sede": "Faenza e Treviso",
+        "certificazione": "ISO 9001",
+        "tag": "Qualità"
+      },
+
+      {
+        "azienda": "Gerardo Cesari",
+        "sede": "Quinzano D'Oglio",
+        "certificazione": "ISO 14001",
+        "tag": "Ambiente"
+      }
+    ]
+  },
+
+  {
+    "anno": "2003",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Forlì",
+        "certificazione": "BRC",
+        "tag": "Sicurezza alimentare"
+      },
+
+      {
+        "azienda": "Caviro",
+        "sede": "Faenza e Treviso",
+        "certificazione": "ISO 14001",
+        "tag": "Ambiente"
+      }
+    ]
+  },
+
+  {
+    "anno": "2004",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Forlì",
+        "certificazione": "IFS",
+        "tag": "Sicurezza alimentare"
+      }
+    ]
+  },
+
+  {
+    "anno": "2005",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Savignano",
+        "certificazione": "IFS e BRC",
+        "tag": "Sicurezza alimentare"
+      }
+    ]
+  },
+
+  {
+    "anno": "2006",
+    "certificazioni": [
+      {
+        "azienda": "Gerardo Cesari",
+        "sede": "Quinzano D'Oglio",
+        "certificazione": "IFS e BRC",
+        "tag": "Sicurezza alimentare"
+      }
+    ]
+  },
+
+  {
+    "anno": "2008",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Forlì",
+        "certificazione": "ISO 14001",
+        "tag": "Ambiente"
+      }
+    ]
+  },
+
+  {
+    "anno": "2010",
+    "certificazioni": [
+      {
+        "azienda": "Caviro Extra",
+        "sede": "Treviso",
+        "certificazione": "OHSAS 180001",
+        "tag": "Salute e sicurezza sui luoghi di lavoro"
+      }
+    ]
+  },
+
+  {
+    "anno": "2012",
+    "certificazioni": [
+      {
+        "azienda": "Enomondo",
+        "sede": "Faenza",
+        "certificazione": "ISO 14001",
+        "tag": "Ambiente"
+      }
+    ]
+  },
+
+  {
+    "anno": "2013",
+    "certificazioni": [
+      {
+        "azienda": "Enomondo",
+        "sede": "Faenza",
+        "certificazione": "OHSAS 180001",
+        "tag": "Salute e sicurezza sui luoghi di lavoro"
+      }
+    ]
+  },
+
+  {
+    "anno": "2015",
+    "certificazioni": [
+      {
+        "azienda": "Caviro Extra",
+        "sede": "Faenza e Treviso",
+        "certificazione": "FSSC 22000",
+        "tag": "Sicurezza alimentare"
+      }
+    ]
+  },
+
+  {
+    "anno": "2018",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Forlì, Faenza e Savigano",
+        "certificazione": "SA8000",
+        "tag": "Responsabile sociale"
+      }
+    ]
+  },
+
+  {
+    "anno": "2019",
+    "certificazioni": [
+      {
+        "azienda": "Caviro Extra",
+        "sede": "Faenza e Treviso",
+        "certificazione": "ISO 45001",
+        "tag": "Salute e sicurezza sui luoghi di lavoro"
+      },
+
+      {
+        "azienda": "Caviro Extra",
+        "sede": "Faenza",
+        "certificazione": "DM 23/01/2012",
+        "tag": "Sostenibilità biometano 2BS, sostenibilità etanolo"
+      },
+
+      {
+        "azienda": "Enomondo",
+        "sede": "Faenza",
+        "certificazione": "ISO 45001",
+        "tag": "Salute e sicurezza sui luoghi di lavoro"
+      }
+    ]
+  },
+
+  {
+    "anno": "2020",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Forlì",
+        "certificazione": "Standard Equalitas Rev. 3",
+        "tag": "Sostenibilità del vino"
+      },
+
+      {
+        "azienda": "Enomondo",
+        "sede": "Spilamberto",
+        "certificazione": "ISO 14001",
+        "tag": "Sostenibilità ambientale"
+      },
+
+      {
+        "azienda": "Caviro",
+        "sede": "Faenza",
+        "certificazione": "Reg. 528/2012",
+        "tag": "Produttore di sostanza attiva biocida"
+      }
+    ]
+  },
+
+  {
+    "anno": "2021",
+    "certificazioni": [
+      {
+        "azienda": "Caviro",
+        "sede": "Faenza",
+        "certificazione": "EFFCI",
+        "tag": "GMP Cosmetici"
+      }
+    ]
+  }
+]

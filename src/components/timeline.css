@@ -1,0 +1,47 @@
+/* Timeline */
+.timeline-main-wrapper,
+.timeline-card-content {
+  padding: 0 !important;
+}
+
+.timeline-horz-card-wrapper,
+.focus-visible {
+  outline: 0 !important;
+}
+
+.horizontal,
+.timeline-horizontal-container {
+  justify-content: center !important;
+}
+
+.horizontal_all {
+  width: 100% !important;
+  margin: auto !important;
+}
+
+.card-description,
+.rc-card-text,
+.rc-card-title,
+.rc-card-subtitle {
+  width: 100% !important;
+  text-align: center !important;
+  --rc-gradient-color: '' !important;
+}
+
+.rc-card-title {
+  color: var(--dark) !important;
+  font-size: 1.2rem !important;
+}
+
+li .rc-card-title {
+  color: var(--light) !important;
+  font-size: 1rem !important;
+}
+
+.rc-card {
+  box-shadow: none !important;
+}
+.card-description p,
+.rc-card-textp {
+  color: #ffffff !important;
+}

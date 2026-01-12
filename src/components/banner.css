@@ -1,0 +1,30 @@
+.headset {
+  height: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+.titolo {
+  font-size: 5vw;
+  filter: drop-shadow(3px 3px 3px #333333);
+}
+
+.sottotitolo {
+  font-size: 3vw;
+  filter: drop-shadow(3px 3px 3px #333333);
+}
+
+.inset {
+  position: absolute;
+  inset: 0;
+}
+
+.gradient {
+  background: linear-gradient(rgba(14, 46, 3, 0.5) 50%, black);
+}
