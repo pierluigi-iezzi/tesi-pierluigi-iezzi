@@ -46,7 +46,14 @@ export default function Mission() {
         <h2 className="text-center pt-5 mb-4">La nostra Mission</h2>
       </Parallax>
       <div className="row text-center g-5 mt-5">
-        {lista.map((el) => (
+        {
+        /*
+          Dall'array precedentemente dichiarato genero vari Parallax
+          (sono a tutti gli effetti dei div con un hook useParallax
+          già collegato)
+          ognuno con velocità di scorrimento diversa
+        */
+        lista.map((el) => (
           <Parallax
             className="col-6 col-sm-4"
             key={el.title}

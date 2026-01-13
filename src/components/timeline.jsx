@@ -1,6 +1,19 @@
+/*
+  Importo il componente esportato da react-chrono, un file di
+  styling e un file json contenente un array di oggetti
+  contenenti l’anno e un elenco delle certificazioni ottenute
+  nell’anno in questione
+*/
+
 import { Chrono } from 'react-chrono';
 import timeline from './timeline.json';
 import './timeline.css';
+
+/*
+  Per ogni elemento dell’array JSON importato, produco un elemento
+  Nel formato richiesto da react-chrono. Salvo il tutto dentro
+  l’array items
+*/
 
 const items = timeline.map((el) => ({
   title: el.anno,
@@ -17,12 +30,12 @@ export default function Timeline() {
   return (
     <Chrono
       items={items}
-      mode="HORIZONTAL"
-      showAllCardsHorizontal
+      mode="HORIZONTAL" // La timeline può essere mostrata verticalmente, più adatta a dispositivi mobile 
+      showAllCardsHorizontal // Mostra tutti gli elementi della timeline invece che solo l’anno selezionato
       itemWidth={70}
-      disableToolbar
+      disableToolbar // Disabilita una toolbar che ho reputato superflua
       cardWidth={'200'}
-      parseDetailsAsHTML
+      parseDetailsAsHTML // Serve ad interpretare i <br> utilizzati precedentemente
       timelinePointShape="diamond"
       theme={{
         primary: '#7e133e' /* Linea */,

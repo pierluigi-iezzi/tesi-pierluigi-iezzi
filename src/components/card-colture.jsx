@@ -1,4 +1,3 @@
-import { useParallax } from 'react-scroll-parallax';
 import oliveto from '/oliveto.jpg';
 import vigneto from '/vigneto.jpg';
 

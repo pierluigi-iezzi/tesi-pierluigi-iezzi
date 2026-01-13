@@ -1,10 +1,16 @@
 import { ParallaxBanner } from 'react-scroll-parallax';
 import './banner.css';
+import bannerLogo from '/banner.jpg'
 
 export default function Banner() {
+  /*
+    Qui l'effetto Parallax è un po' più complesso, composto da 3 layer
+    1. Il background, con un fade out, zoom out e uno spostamento in basso
+    2. Il titolo, con zoom in e spostamento in basso
+    3. Una sfumatura sul nero
+  */
   const background = {
-    image:
-      'https://www.cantinedidolianova.it/wp-content/uploads/2021/11/quanto-rende-un-ettaro-di-vigneto.jpg',
+    image: bannerLogo,
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],

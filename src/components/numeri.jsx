@@ -1,5 +1,3 @@
-import { Parallax } from 'react-scroll-parallax';
-
 const lista = [
   { title: '100%', text: 'di autosufficienza energetica' },
   { title: '82.000', text: 'tonnellate di saving emissivo di CO2' },
@@ -31,7 +29,7 @@ export default function Numeri() {
       <div className="row text-center g-4">
         {lista.map((el) => {
           return (
-            <Parallax key={el.title} className="col">
+            <div key={el.title} className="col">
               <div
                 className="rounded-circle light-bg p-4 center flex-column"
                 style={{ width: 150, height: 150 }}
@@ -39,7 +37,7 @@ export default function Numeri() {
                 <h4>{el.title}</h4>
                 <p>{el.text}</p>
               </div>
-            </Parallax>
+            </div>
           );
         })}
       </div>
