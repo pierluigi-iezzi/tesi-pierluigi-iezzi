@@ -7,7 +7,9 @@
 
 
 ## Visualizzare il sito
-Per visualizzare il sito, seguire questi passaggi:
+Anteprima disponibile al link https://tesipierluigiiezzi.netlify.app/
+
+Per buildare il sito in locale e visualizzarlo, seguire questi passaggi:
 1. installare node.js
 2. Con un terminale spostarsi nella cartella root del progetto e installare vite col comando `npm install -D vite`
 3. Lanciare il comando `npx vite preview`
